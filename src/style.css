@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main-content {
+    overflow-x: hidden;
+}
+
+.header {
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+    background: none;
+    position: fixed;
+    z-index: 50;
+}
+
+.Header_buttons {
+    font-size: 60px;
+    background: rgb(12, 29, 12);
+    padding: 12px 12px 0px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    padding: 130px 0;
+    background: url('./mainpage/Dried-fruits-delicious-food_1920x1200.jpg');
+    background-size: 65% 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.main-inner h1 {
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(7, 87, 7);
+}
+
+.main-inner h5 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-inner {
+    text-align: left;
+    padding: 100px 0;
+    position: relative;
+    top: 15vh;
+    width: 35%;
+}
+
+.main-inner button {
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 22px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    border: 1px solid white;
+}
+
+.main-inner p {
+    font-size: 23px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.suchofrukt {
+    margin-top: 100px;
+    padding: 80px 0;
+    background: url('./mainpage/Pears_Common_fig_Nuts_451282.jpg');
+    background-size: 52% 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.polza-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+}
+
+.polza-inner h1 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(0, 78, 0);
+}
+
+.polza-inner p {
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: rgb(12, 29, 12);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-inner p {
+    margin: 30px 0;
+}
+
+.Footer_btn {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.footer-inner {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 720px;
+    }
+    .Header_buttons {
+        font-size: 35px;
+        border-radius: 10px;
+    }
+    .main {
+        background-size: 100% 40%;
+        background-position-y: top;
+    }
+    .main-inner {
+        width: 100%;
+        text-align: center;
+        padding: 70px 0;
+    }
+    .main-inner h1 {
+        font-size: 50px;
+    }
+    .main-inner p {
+        font-size: 18px;
+    }
+    .main-inner button {
+        font-size: 18px;
+    }
+    .suchofrukt {
+        background-size: 100% 40%;
+        background-position-y: top;
+        border: none;
+    }
+    .polza-inner {
+        width: 100%;
+        position: relative;
+        bottom: -25vh;
+        margin-bottom: 100px;
+    }
+    .polza-inner h1 {
+        font-size: 20px;
+    }
+    .polza-inner p {
+        font-size: 15px;
+    }
+    .footer-inner h1 {
+        font-size: 18px;
+    }
+    .footer-inner p {
+        font-size: 13px;
+    }
+}

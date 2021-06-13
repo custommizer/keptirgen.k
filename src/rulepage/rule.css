@@ -1,0 +1,52 @@
+.rule {
+    padding: 100px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rule-inner h1 {
+    padding: 10px;
+    font-size: 35px;
+    color: rgb(0, 46, 0);
+}
+
+.rule-item {
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.rule-item h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.rule-item p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.rule-inner h3 {
+    font-size: 25px;
+    margin-top: 40px;
+    color: rgb(0, 46, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.goshop {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(1, 70, 1);
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width: 720px) {
+    .rule-item h2 {
+        font-size: 20px;
+    }
+    .rule-item p {
+        font-size: 16px;
+    }
+}

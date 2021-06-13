@@ -1,0 +1,71 @@
+.about {
+    padding: 100px 0;
+}
+
+.ceo-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgb(1, 66, 1);
+}
+
+.ceo-item h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ceo-item img {
+    width: 50%;
+    height: 50%;
+}
+
+.aboutkeptirgen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.aboutkeptirgen img {
+    width: 80%;
+}
+
+.aboutkeptirgen h2 {
+    width: 80%;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(1, 49, 1);
+}
+
+.aboutkeptirgen h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    font-size: 45px;
+    color: rgb(1, 49, 1)
+}
+
+@media(max-width: 720px) {
+    .ceo-item img {
+        width: 80%;
+        height: 80%;
+    }
+    .ceo-item {
+        padding: 30px 10px;
+    }
+    .ceo-item h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .aboutkeptirgen h1 {
+        font-size: 20px;
+    }
+    .aboutkeptirgen h2 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+}

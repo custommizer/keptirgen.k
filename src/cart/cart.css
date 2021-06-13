@@ -1,0 +1,153 @@
+.Korzina {
+    z-index: 90;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 3px solid rgb(1, 51, 1);
+}
+
+.summary {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.pustoi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pustoi img {
+    width: 100%;
+    height: 60%;
+}
+
+.pusto {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Cart_sum {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: rgb(143, 14, 68);
+    cursor: pointer;
+}
+
+.Cart_close {
+    font-size: 50px;
+    background: none;
+    border: none;
+    color: rgb(1, 51, 1);
+    cursor: pointer;
+    position: fixed;
+    left: 10px;
+    top: 5px;
+    left: 5px;
+    top: 5px;
+}
+
+.Korzina_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.Korzinka_items h3 {
+    margin-top: 15px;
+    font-size: 32px;
+}
+
+.Korzinka_items {
+    width: 60%;
+    padding: 20px;
+    border: 2px solid rgb(0, 70, 0);
+    border-radius: 10px;
+}
+
+.Korzinka_items button {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.Korzinka_items img {
+    width: 300px;
+}
+
+.Foorm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderbtn {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(1, 92, 1);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.orderbtn:hover {
+    background-color: rgb(1, 51, 1);
+}
+
+.orderinput {
+    width: 60%;
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 41, 0);
+}
+
+@media (max-width: 720px) {
+    .Korzina {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: none;
+    }
+    .Korzina_card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Korzinka_items {
+        width: 70%;
+    }
+    .Korzinka_items img {
+        width: 150px;
+    }
+    .Korzinka_items h3 {
+        font-size: 15px;
+    }
+    .Korzinka_items h1 {
+        font-size: 22px;
+    }
+    .Korzinka_items button {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .summary {
+        font-size: 20px;
+    }
+    .orderbtn {
+        margin-bottom: 150px;
+    }
+}
