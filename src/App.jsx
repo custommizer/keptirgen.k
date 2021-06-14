@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter,HashRouter, Switch, Route } from 'react-router-dom'
 import Header from './Head/Header'
 import Store from './catalogue/Store'
 import Main from './mainpage/Main'
@@ -16,6 +16,7 @@ function App() {
   return (
     <UserProvider>
       <BrowserRouter>
+      <HashRouter basename="/">
         <Header />
 
         <Route exact path="/">
@@ -64,8 +65,9 @@ function App() {
         <Footer />
         
 
-
+        </HashRouter>
       </BrowserRouter>
+      
     </UserProvider>
   );
 }
