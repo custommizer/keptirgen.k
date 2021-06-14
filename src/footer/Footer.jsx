@@ -16,7 +16,7 @@ function Footer(){
                 <div className="footer-inner">
                     <h1>(c)Все права защищены.</h1>
                     <p>Если у вас возникли вопросы обратитесь к нам:</p>
-                    <Link className="Footer_btn" to="/call">Связатся</Link>
+                    <Link className="Footer_btn" to="/call">Связаться</Link>
                 </div>
             </div>
         </div>
