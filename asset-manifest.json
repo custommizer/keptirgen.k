@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Keptirgen/static/css/main.b017ec93.chunk.css",
-    "main.js": "/Keptirgen/static/js/main.57cf66c2.chunk.js",
-    "main.js.map": "/Keptirgen/static/js/main.57cf66c2.chunk.js.map",
-    "runtime-main.js": "/Keptirgen/static/js/runtime-main.f3cbd689.js",
-    "runtime-main.js.map": "/Keptirgen/static/js/runtime-main.f3cbd689.js.map",
-    "static/css/2.184a82a8.chunk.css": "/Keptirgen/static/css/2.184a82a8.chunk.css",
-    "static/js/2.584905f2.chunk.js": "/Keptirgen/static/js/2.584905f2.chunk.js",
-    "static/js/2.584905f2.chunk.js.map": "/Keptirgen/static/js/2.584905f2.chunk.js.map",
-    "index.html": "/Keptirgen/index.html",
-    "static/css/2.184a82a8.chunk.css.map": "/Keptirgen/static/css/2.184a82a8.chunk.css.map",
-    "static/css/main.b017ec93.chunk.css.map": "/Keptirgen/static/css/main.b017ec93.chunk.css.map",
-    "static/js/2.584905f2.chunk.js.LICENSE.txt": "/Keptirgen/static/js/2.584905f2.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/Keptirgen/static/media/Pears_Common_fig_Nuts_451282.6885f27a.jpg",
-    "static/media/ceo.18df9985.jpeg": "/Keptirgen/static/media/ceo.18df9985.jpeg",
-    "static/media/empty-cart.3fb2f85a.png": "/Keptirgen/static/media/empty-cart.3fb2f85a.png",
-    "static/media/klogo.20844154.png": "/Keptirgen/static/media/klogo.20844154.png"
+    "main.css": "/keptirgen.k/static/css/main.3d6ad378.chunk.css",
+    "main.js": "/keptirgen.k/static/js/main.57cf66c2.chunk.js",
+    "main.js.map": "/keptirgen.k/static/js/main.57cf66c2.chunk.js.map",
+    "runtime-main.js": "/keptirgen.k/static/js/runtime-main.f570086e.js",
+    "runtime-main.js.map": "/keptirgen.k/static/js/runtime-main.f570086e.js.map",
+    "static/css/2.184a82a8.chunk.css": "/keptirgen.k/static/css/2.184a82a8.chunk.css",
+    "static/js/2.584905f2.chunk.js": "/keptirgen.k/static/js/2.584905f2.chunk.js",
+    "static/js/2.584905f2.chunk.js.map": "/keptirgen.k/static/js/2.584905f2.chunk.js.map",
+    "index.html": "/keptirgen.k/index.html",
+    "static/css/2.184a82a8.chunk.css.map": "/keptirgen.k/static/css/2.184a82a8.chunk.css.map",
+    "static/css/main.3d6ad378.chunk.css.map": "/keptirgen.k/static/css/main.3d6ad378.chunk.css.map",
+    "static/js/2.584905f2.chunk.js.LICENSE.txt": "/keptirgen.k/static/js/2.584905f2.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/keptirgen.k/static/media/Pears_Common_fig_Nuts_451282.6885f27a.jpg",
+    "static/media/ceo.18df9985.jpeg": "/keptirgen.k/static/media/ceo.18df9985.jpeg",
+    "static/media/empty-cart.3fb2f85a.png": "/keptirgen.k/static/media/empty-cart.3fb2f85a.png",
+    "static/media/klogo.20844154.png": "/keptirgen.k/static/media/klogo.20844154.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3cbd689.js",
+    "static/js/runtime-main.f570086e.js",
     "static/css/2.184a82a8.chunk.css",
     "static/js/2.584905f2.chunk.js",
-    "static/css/main.b017ec93.chunk.css",
+    "static/css/main.3d6ad378.chunk.css",
     "static/js/main.57cf66c2.chunk.js"
   ]
 }
