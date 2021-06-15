@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css"
+import {Link} from 'react-router-dom'
 
 
 function Main() {
@@ -21,7 +22,8 @@ function Main() {
                     <h1>Keptirgen</h1>
                     <h5>since 2021</h5>
                     <p>Казахстанская компания<br></br> по производству сущенных продуктов.</p>
-                    <button>Подробнее</button>
+                    <Link className="about-link" to="/about-page">Подробнее</Link>
+                    
                 </div>
             </div>
         </section>
@@ -41,6 +43,8 @@ function Main() {
                      сохраняя вкусовые и полезные свойства, более того некоторые в сушеном виде обретают яркий и насыщенный вкус.
                      И это известно издревле, традициям изготовление сухофруктов не одна тысяча лет: изюм, урюк, инжир. 
                     </p>
+
+                    
                     
                 </div>
             </div>
