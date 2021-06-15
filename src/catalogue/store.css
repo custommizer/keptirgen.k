@@ -2,6 +2,10 @@
     padding: 100px 0;
 }
 
+.store {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .store-list {
     display: flex;
     flex-wrap: wrap;

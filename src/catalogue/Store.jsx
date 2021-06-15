@@ -5,6 +5,10 @@ import Storecomp from './Storecomp'
 import {UserContext} from '../cart/User'
 import Aos from "aos";
 import "aos/dist/aos.css"; 
+import ReactNotification from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
+import {store} from "react-notifications-component"
+import "animate.css"
 
 
 
@@ -35,10 +39,27 @@ function Store() {
         
     };
 
+    const handleNotification =() =>{
+        store.addNotification({
+            title: "Продукт добавлен в корзину",
+            type: "success",
+            message: "Успех!", 
+            container: "top-right",
+            insert: "top",
+            anmationIn: ["animated", "fadeIn"],
+            animationOut: ["animated", "fadeOut"],
+
+            dismiss:{
+                duration: 1000
+            }
+        });
+    }
+
 
 
     return (
         <section className="store">
+            <ReactNotification />
             <div className="container">
                 <div className="store-inner">
                     <div className="store-list">
@@ -53,7 +74,7 @@ function Store() {
                                         <p>{item.description}</p>
                                         <h4>{item.price}</h4>
                                         <h3>{item.money}</h3>
-                                        <button onClick={(e)=> handleKorzina(item.id)}>в Корзинку</button>
+                                        <button onClick={(e)=> {handleKorzina(item.id); handleNotification();}} >в Корзинку</button>
                                     </div>
                                     
                                 )

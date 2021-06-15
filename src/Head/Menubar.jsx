@@ -43,6 +43,7 @@ function Menubar({setShow}){
 
                         </div>
                     </div>
+                    <button className="ghostclose" onClick={()=>setShow(false)}></button>
                 </div>
          
     )
