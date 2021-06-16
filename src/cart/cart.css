@@ -117,6 +117,12 @@
     border-bottom: 2px solid rgb(0, 41, 0);
 }
 
+.errors {
+    color: red;
+    margin: 20px;
+    text-align: center;
+}
+
 @media (max-width: 720px) {
     .Korzina {
         width: 100%;

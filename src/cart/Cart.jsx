@@ -12,8 +12,10 @@ function Cart({setKorz}){
     
 
 
-    const[name,setName] = useState(false)
-    const[phone,setPhone] = useState(false)
+    const[name,setName] = useState('')
+    const[phone,setPhone] = useState('')
+    const[errors,setErrors] = useState(false)
+    
 
     let sum = 0
     let text = ``
@@ -25,8 +27,14 @@ function Cart({setKorz}){
     const User = useContext(UserContext);
 
     const handleOrder = (e) =>{
-        
         e.preventDefault()
+        if (!User.user){setErrors('Корзина не должна быть пустой!')}
+        else if (!User.user.korzina){setErrors('Корзина не должна быть пустой!')}
+        else if (User.user.korzina.length < 1){setErrors('Корзина не должна быть пустой!')}
+        else if (name.length < 3){setErrors('Имя обязательно должно быть заполненным')}
+        else if (phone.length < 9){setErrors('Номер обязательно должно быть заполненным')}
+        else if(errors === false){
+        
         text+=`______общая сумма:${sum}\n\n _______    имя_покупателя:${name}\n\n ______  номер-покупателя:${phone}`
         const templateId = "template_lw5clu9"
         window.emailjs.send("service_hc4ucu5", templateId,{message_html:text, from_name:"eldar", reply_to:"sadstorystudios.85@gmail.com"}).then(res=>{console.log("email")}).catch(error=>{console.log(error)})
@@ -36,6 +44,7 @@ function Cart({setKorz}){
             )
             
         );
+      }
 
 
     }
@@ -124,10 +133,14 @@ function Cart({setKorz}){
             <div className="summary">Общая сумма: {sum}</div>
                 <form className="Foorm">
                  <input className="orderinput" type="text" placeholder="Ваше имя" onChange={(e)=>setName(e.target.value)}></input>
+
                  <input className="orderinput" type="text" placeholder="Ваш номер" onChange={(e)=>setPhone(e.target.value)}></input>
                  <button className="orderbtn" onClick={(e)=>handleOrder(e)}>Оформить заказ</button>
                
                 </form>
+                    {errors?(<div className="errors">{errors}</div>):null}
+                
+
             
 
            
