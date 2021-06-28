@@ -8,6 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css"
 
 
+
 function Cart({setKorz}){
     
 
@@ -86,7 +87,12 @@ function Cart({setKorz}){
         });
     }
     return(
+        <div className="korz_wrapper">
+            <button className="cart_ghost" onClick={()=>setKorz(false)}></button>
+
+        
         <div className="Korzina" data-aos="fade-left">
+            
             <button className="Cart_close" onClick={()=>setKorz(false)}><AiOutlineCloseCircle/></button>
             <div className="container">
 
@@ -144,6 +150,8 @@ function Cart({setKorz}){
             
 
            
+        </div>
+
         </div>
 
     );

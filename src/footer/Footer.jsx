@@ -18,7 +18,7 @@ function Footer(){
                     <p>Если у вас возникли вопросы обратитесь к нам:</p>
                     <Link className="Footer_btn" to="/call">Связаться</Link>
                     
-                    <h1>(c)все права защищены.</h1>
+                    <h1>Keptirgen.2021.(c)все права защищены.</h1>
                 </div>
             </div>
         </div>
