@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/keptirgen.k/static/css/main.bc3973c3.chunk.css",
-    "main.js": "/keptirgen.k/static/js/main.3d4de2ff.chunk.js",
-    "main.js.map": "/keptirgen.k/static/js/main.3d4de2ff.chunk.js.map",
+    "main.css": "/keptirgen.k/static/css/main.67374480.chunk.css",
+    "main.js": "/keptirgen.k/static/js/main.a449b5ce.chunk.js",
+    "main.js.map": "/keptirgen.k/static/js/main.a449b5ce.chunk.js.map",
     "runtime-main.js": "/keptirgen.k/static/js/runtime-main.f570086e.js",
     "runtime-main.js.map": "/keptirgen.k/static/js/runtime-main.f570086e.js.map",
     "static/css/2.184a82a8.chunk.css": "/keptirgen.k/static/css/2.184a82a8.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.15ca102b.chunk.js.map": "/keptirgen.k/static/js/2.15ca102b.chunk.js.map",
     "index.html": "/keptirgen.k/index.html",
     "static/css/2.184a82a8.chunk.css.map": "/keptirgen.k/static/css/2.184a82a8.chunk.css.map",
-    "static/css/main.bc3973c3.chunk.css.map": "/keptirgen.k/static/css/main.bc3973c3.chunk.css.map",
+    "static/css/main.67374480.chunk.css.map": "/keptirgen.k/static/css/main.67374480.chunk.css.map",
     "static/js/2.15ca102b.chunk.js.LICENSE.txt": "/keptirgen.k/static/js/2.15ca102b.chunk.js.LICENSE.txt",
     "static/media/style.css": "/keptirgen.k/static/media/Pears_Common_fig_Nuts_451282.6885f27a.jpg",
     "static/media/ceo.18df9985.jpeg": "/keptirgen.k/static/media/ceo.18df9985.jpeg",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.f570086e.js",
     "static/css/2.184a82a8.chunk.css",
     "static/js/2.15ca102b.chunk.js",
-    "static/css/main.bc3973c3.chunk.css",
-    "static/js/main.3d4de2ff.chunk.js"
+    "static/css/main.67374480.chunk.css",
+    "static/js/main.a449b5ce.chunk.js"
   ]
 }
