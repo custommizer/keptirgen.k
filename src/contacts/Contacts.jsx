@@ -20,7 +20,7 @@ function Contacts(){
         <section className="contact" data-aos="fade-up" data-aos-duration="800">
             <div className="container">
                 <div className="contacts-inner">
-                    <h1>Контакты нашей компании</h1>
+                    <h1>Контакты нашей компании ;)</h1>
                     <div className="contacts_list">
                         
                         <div className="contacts-item" data-aos="fade-right">
@@ -41,7 +41,7 @@ function Contacts(){
                         </div>
 
                     </div>
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac00bfcd8190c9e3ff5e93772384195d3291564b2b2c2dc0250d9f3f520c17967&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                    <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3Ac00bfcd8190c9e3ff5e93772384195d3291564b2b2c2dc0250d9f3f520c17967&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
                 </div>
 
             </div>

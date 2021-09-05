@@ -6,6 +6,9 @@ import {AiOutlineCloseCircle} from 'react-icons/ai'
 import empty from '../cart/empty-cart.png'
 import Aos from "aos";
 import "aos/dist/aos.css"
+import {AiOutlinePlus} from "react-icons/ai"
+import {AiOutlineMinus} from "react-icons/ai"
+import {FcDeleteRow} from "react-icons/fc"
 
 
 
@@ -115,10 +118,10 @@ function Cart({setKorz}){
                           <p>{product.price} {product.money}</p>
                           <h3>{product.money} тенге</h3>
                           <h3>количество: {product.count} шт</h3>
-                          <button className="Cart_sum" onClick ={(e)=> handlekorzinaadd(e,product.id)}>+</button>
-                          <button className="Cart_sum" onClick ={()=> handlekorzinaminus(product.id)}>-</button>
+                          <button className="Cart_sum" onClick ={(e)=> handlekorzinaadd(e,product.id)}>< AiOutlinePlus/></button>
+                          <button className="Cart_sum" onClick ={()=> handlekorzinaminus(product.id)}><AiOutlineMinus /></button>
                           <button className="Cart_sum" onClick={()=> handleKorzinaDelete(product.id)}>
-                              Удалить
+                              <FcDeleteRow />
                           </button>
                         </div>
 

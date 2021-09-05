@@ -5,13 +5,11 @@ import { useEffect } from 'react';
 
 
 function Footer(){
-    useEffect(()=>{
-        Aos.init({duration: 500});
-    }, []);
+   
 
 
     return(
-        <div className="footer" data-aos="fade-up">
+        <div className="footer" >
             <div className="container">
                 <div className="footer-inner">
                     

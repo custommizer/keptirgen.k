@@ -7,7 +7,7 @@ import {FcHome} from 'react-icons/fc'
 import {FcAbout} from 'react-icons/fc'
 import {FcContacts} from 'react-icons/fc'
 import {MdLocalGroceryStore} from 'react-icons/md'
-import {IoIosCloseCircleOutline} from 'react-icons/io'
+import {IoCloseOutline} from 'react-icons/io5'
 import {FcRules} from 'react-icons/fc'
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +29,7 @@ function Menubar({setShow}){
                 <div className="menu" data-aos="fade-right" >
                    <div className="menu-inner">
                         <div className="menu-list">
-                           <button onClick={()=>setShow(false)}><IoIosCloseCircleOutline/></button>
+                           <button onClick={()=>setShow(false)}><IoCloseOutline/></button>
                   
                            <Link to = "/main" className="links_link"> <FcHome /> Главная</Link>
                            <Link to="/about-page" className="links_link"><FcAbout /> О нас  </Link>

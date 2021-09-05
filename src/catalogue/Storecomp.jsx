@@ -4,6 +4,7 @@
 
 
 export const storecomponents = [
+
     {
         id:"1" ,
         image:"https://img-fotki.yandex.ru/get/5901/36902536.32/0_a7750_3cf305fa_XL.jpg",
@@ -14,7 +15,7 @@ export const storecomponents = [
     },
 
     {   id:"2" ,
-        image:"https://mognotak.ru/wp-content/uploads/2018/08/yablochnaya_pastils.jpg",
+        image:"https://vestikavkaza.ru/upload/2017-05-26/14958319325928957c751e99.10687412.jpg",
         title:"Пастила из яблок",
         description:"Состав: Яблочное пюре 100%",
         price:"Цена в тенге за 50гр:",
